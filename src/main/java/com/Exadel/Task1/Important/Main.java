@@ -51,6 +51,10 @@ public class Main {
 
 
         Map<User, List<UserContentAbstract>> mapUserContent=new HashMap<User, List<UserContentAbstract>>();
+        mapUserContent.put(once,new ArrayList<UserContentAbstract>(arrayListComment));
+        mapUserContent.put(twice,new ArrayList<UserContentAbstract>());
+        System.out.println(mapUserContent.get(once).size());
+        System.out.println(mapUserContent.get(twice).size());
 
 
         System.out.println("\n"+"5) Create set of attachments sorted by fileSize (descending). Print"+"\n");
