@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.3.9
+Built-By: Master
+Build-Jdk: 11.0.1
+Main-Class: com.Exadel.Task1.Important.Main
+
+
+
+
+
+
+
