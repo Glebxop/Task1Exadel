@@ -14,6 +14,10 @@ public class User {
         this.email = email;
     }
 
+    public String getName() {
+        return name;
+    }
+
     void print(){
         System.out.println(toString());
     }
